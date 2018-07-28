@@ -6,7 +6,7 @@ use pyo3::prelude::*;
 
 /// This is the rustlib module!
 #[pymodinit]
-fn rustlib(py: Python, m: &PyModule) -> PyResult<()> {
+fn rustlib(_py: Python, m: &PyModule) -> PyResult<()> {
     /// Add two numbers
     #[pyfn(m, "adder")]
     fn adder_py(a: i64, b: i64) -> PyResult<i64> {
