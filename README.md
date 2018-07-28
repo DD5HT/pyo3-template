@@ -1,12 +1,17 @@
 # pyo3-template
 
-A template to create PyO3 projects to use accelerate your Python code with Rust
+A minimal template to create [PyO3][1] projects to use accelerate your Python code with Rust
 
 ## Help
 
-We use [cargo generate][0]
-to use this template just run:
+First install [cargo generate][0]
+
+```cargo install cargo-generate```
+
+then to use this template:
 
 ```cargo generate --git https://github.com/DD5HT/pyo3-template.git --name myproject```
 
 [0]: https://github.com/ashleygwilliams/cargo-generate
+[1]: https://github.com/PyO3/pyo3
+
