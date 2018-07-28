@@ -2,7 +2,7 @@
 
 A minimal template to create [PyO3][1] projects to accelerate your Python code with Rust
 
-IMPORTANT: You have to use the nightly build to use the PyO3 bindings.
+IMPORTANT: You have to use the rust nightly build to use the PyO3 bindings.
 
 ## Help
 
