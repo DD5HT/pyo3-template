@@ -4,7 +4,11 @@ version = "0.1.0"
 authors = ["{{authors}}"]
 
 [lib]
+<<<<<<< HEAD
 name = "myrust"
+=======
+name = "hello_rust"
+>>>>>>> 192422fd9f779041850dcc2a6364a59dbc850399
 crate-type = ["cdylib"]
 
 [dependencies.pyo3]
