@@ -1,4 +1,16 @@
+os:
+- linux
 language: rust
-rust: nightly
+rust:
+- nightly
+cache: 
+- apt
+- cargo
+
+before_install:
+  - sudo apt-get install -y python3.6
+addons:
+  apt:
+    update: true
 
 script: make run
